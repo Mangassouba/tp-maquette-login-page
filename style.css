@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 50%;
+    padding: 20px 0;
+}
+.contents{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 80px; */
+}
+
+.login{
+    margin: 5px 0
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.item2 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.item1,.item2,.item3,.item4{
+    margin-top: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+    padding: 5px;
+    border-radius: 10px ;
+    margin: 5px;
+}
+/* input[type="checkbox"]{
+    display: 0;
+} */
+
+.btn{
+    margin: 15px 0;
+}
+
+.btn button{
+    width: 100%;
+    background-color:#3a5b22;
+    color: #ffffff;
+    transition: 0.5s ease-in;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.btn button:hover{
+    background-color: rgba(58, 91, 34, 0.915);
+}
+
+span{
+    position: relative;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color:#0f3dde ;
+}
+
+span::before,
+span::after{
+    content: "";
+    position: absolute;
+    width: 46%;
+    height: 1px;
+    background-color: #000;
+}
+span::after{
+    right: 0;
+}
+span::before{
+    left: 0;
+}
+
+.reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+}
+
+.google{
+    border: 1px solid #000;
+    margin: 5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+}
+.google:hover{
+    background-color: #f5f5f5;
+}
+
+.google img{
+    width: 20px;
+    margin: 5px;
+}
+.apple{
+    border: 1px solid #000;
+    margin: 5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+}
+.apple:hover{
+    background-color: #f5f5f5;
+}
+.apple img{
+    width: 20px;
+    margin: 5px;
+}
+
+.p-bas{
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.right{
+    width: 50%;
+    height: 100vh;
+}
+
+.right img{
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
